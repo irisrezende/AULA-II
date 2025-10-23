@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG - Página Inicial</title>
+    <link rel="stylesheet" href="css/design-system.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-logo">ONG Resgate</a>
+            
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li class="dropdown">
+                        <a href="projetos.html">Projetos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Projeto A</a></li>
+                            <li><a href="#">Projeto B</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="#" class="btn btn-primary">Doe Agora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1>Ajude a Salvar Vidas</h1>
+                        <p>Sua contribuição faz a diferença na vida de centenas de animais.</p>
+                        <a href="cadastro.html" class="btn btn-primary btn-lg">Seja um Voluntário</a>
+                        <a href="#" class="btn btn-secondary btn-lg">Saiba Mais</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="httpsa://via.placeholder.com/500x300" alt="Animal resgatado" style="width:100%; border-radius: var(--radius-md);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos-recentes">
+            <div class="container">
+                <h2>Nossos Projetos</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Projeto 1">
+                            <div class="card-body">
+                                <span class="badge badge-success">Adoção</span>
+                                <h3 class="card-title">Projeto Adoção Feliz</h3>
+                                <p class="card-text">Encontrando lares amorosos para nossos amigos de quatro patas.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Projeto 2">
+                            <div class="card-body">
+                                <span class="badge badge-warning">Resgate</span>
+                                <h3 class="card-title">Equipe de Resgate</h3>
+                                <p class="card-text">Atuando 24h por dia para salvar animais em risco.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Projeto 3">
+                            <div class="card-body">
+                                <span class="badge badge-info">Veterinária</span>
+                                <h3 class="card-title">Clínica Comunitária</h3>
+                                <p class="card-text">Oferecendo cuidados veterinários acessíveis para a comunidade.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 - Todos os direitos reservados - ONG Resgate</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
