@@ -1,0 +1,66 @@
+/* =================================
+   ARQUIVO: design-system.css
+   PASSO 1: SISTEMA DE DESIGN (VARIÁVEIS)
+   ================================= */
+
+:root {
+    /* 1. Paleta de Cores (Exemplo com 8 cores) */
+    
+    /* Primárias */
+    --color-primary: #007bff;
+    --color-primary-dark: #0056b3;
+    --color-primary-light: #cce5ff;
+
+    /* Secundárias */
+    --color-secondary: #6c757d;
+    --color-secondary-light: #f8f9fa;
+
+    /* Neutras */
+    --color-text: #212529;
+    --color-text-light: #5a5a5a;
+    --color-background: #ffffff;
+    --color-border: #dee2e6;
+    
+    /* Feedback (Bônus, mas necessário para componentes) */
+    --color-success: #28a745;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-info: #17a2b8;
+
+    /* 2. Tipografia Hierárquica (5+ tamanhos) */
+    --font-family-base: 'Helvetica', 'Arial', sans-serif;
+    --font-family-heading: 'Georgia', 'Times New Roman', serif;
+    
+    /* Usamos 'rem' para acessibilidade. 1rem = 16px (padrão) */
+    --font-size-xs: 0.75rem;  /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem;    /* 16px */
+    --font-size-md: 1.25rem; /* 20px */
+    --font-size-lg: 1.5rem;  /* 24px */
+    --font-size-xl: 2.25rem; /* 36px */
+    --font-size-xxl: 3rem;   /* 48px */
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --line-height-base: 1.6;
+
+    /* 3. Sistema de Espaçamento Modular (Base 8px) */
+    --space-xxs: 4px;   /* 0.5 * 8px */
+    --space-xs: 8px;    /* 1 * 8px */
+    --space-sm: 16px;   /* 2 * 8px */
+    --space-md: 24px;   /* 3 * 8px */
+    --space-lg: 32px;   /* 4 * 8px */
+    --space-xl: 48px;   /* 6 * 8px */
+    --space-xxl: 64px;  /* 8 * 8px */
+
+    /* 4. Outros (Ex: Bordas) */
+    --border-width: 1px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-pill: 50rem;
+    
+    /* 5. Transições */
+    --transition-fast: all 0.2s ease-in-out;
+}
